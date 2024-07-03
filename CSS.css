@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto Serif', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.hero-section {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section h1 {
+    color: #491F1A;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 20px;
+}
+
+.hero-image {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
